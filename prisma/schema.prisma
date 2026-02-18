@@ -18,7 +18,7 @@ datasource db {
 
 generator client {
   provider = "prisma-client" // For Prisma 7
-  output   = "../app/generated/prisma"
+  output   = "../app/generated/prisma/client"
 }
 
 // ... rest of your models
